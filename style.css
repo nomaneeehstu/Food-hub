@@ -1,0 +1,32 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+#c1{
+    color: rgb(170, 7, 7);
+}
+#c2{
+    color: rgb(240, 144, 60);
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-with{
+    width: 50%;
+}
+div img{
+    height: 600px;
+    width: 550px;
+}
+.button{
+    text-decoration: none;
+    border-radius: 10px;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+color: white;
+font-weight: 700;
+
+}
