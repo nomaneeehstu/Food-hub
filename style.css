@@ -1,32 +1,64 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+   
 }
+
 h1{
     font-size: 50px;
+    font-weight: 900;
 }
 #c1{
     color: rgb(170, 7, 7);
 }
-#c2{
+.c2{
     color: rgb(240, 144, 60);
 }
 .flex-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-left: 0;
 }
-.half-with{
+.half-width{
     width: 50%;
+    padding: 5%;
 }
 div img{
-    height: 600px;
-    width: 550px;
+    height: 350px;
+    width: 380px;
 }
 .button{
     text-decoration: none;
     border-radius: 10px;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgb(197, 13, 44),tomato);
     padding: 10px 30px;
-color: white;
-font-weight: 700;
+    color: white;
+    font-weight: 700;
 
+}
+.back-banner{
+    background-image: url(shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    height: 600px;
+    width: 650px;
+}
+.text-format{
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 100px;
+    text-align: justify;
+    margin-top: 150px;
+}
+#recipie-f{
+text-align: center;
+padding: 10%;
+}
+.sec-3{
+    box-shadow: 10px 10px 40px black;
+width: 25%;
+margin-left: 3%;
+margin-right: 3%;
+padding: 12px;
+border-radius: 5%;
 }
