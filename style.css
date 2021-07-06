@@ -1,13 +1,18 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-   
+   margin: 0;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 h1{
     font-size: 50px;
     font-weight: 900;
+    line-height: 0.5;
 }
-#c1{
+.c1{
     color: rgb(170, 7, 7);
 }
 .c2{
@@ -15,7 +20,7 @@ h1{
 }
 .flex-container{
     display: flex;
-    margin-left: 0;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -27,7 +32,7 @@ div img{
 }
 .button{
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background-image: linear-gradient(rgb(197, 13, 44),tomato);
     padding: 10px 30px;
     color: white;
@@ -39,9 +44,16 @@ div img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img1{
-    height: 600px;
-    width: 650px;
+#img1{
+    height: 500px;
+    width: 550px;
+}
+#img2{
+    height: 500px;
+    width: 550px;
+    position: relative;
+    right: 20px;
+    bottom: -80px;
 }
 .text-format{
     padding-left: 30px;
@@ -52,7 +64,7 @@ div img{
 }
 #recipie-f{
 text-align: center;
-padding: 10%;
+padding: 5%;
 }
 .sec-3{
     box-shadow: 10px 10px 40px black;
@@ -61,4 +73,21 @@ margin-left: 3%;
 margin-right: 3%;
 padding: 12px;
 border-radius: 5%;
+}
+footer{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(9, 97, 97);
+    color: white;
+}
+.recipie-pic{
+    border-radius: 10px;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(9, 97, 97);
+    color: whitesmoke;
 }
